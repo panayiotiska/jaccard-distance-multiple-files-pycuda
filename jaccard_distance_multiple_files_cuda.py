@@ -66,10 +66,6 @@ mod = SourceModule("""
         const int j = threadIdx.x;
         i=j*2;
         Jaccard_distances[j] = __fdividef(IntersectUnion[i], IntersectUnion[i+1])*100;
-
-        //if (Jaccard_distances[j] > max) { //Not working, try implement later
-        //    max = Jaccard_distances[j];
-        //}
     }
 
 """)
