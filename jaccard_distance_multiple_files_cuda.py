@@ -76,7 +76,7 @@ mod = SourceModule("""
 
 # Read directory path from user
 #directory_path = input("insert the path of directory with multiple txt files: ")
-directory_path = r'C:\Users\Panos\Desktop\HighPerfomanceComputing\gpu\exercises\py\myfolder'
+directory_path = r'C:\...ADD THE PATH OF THE FOLDER CONTAINING THE FILES'
 
 
 # Read all files in a directory
